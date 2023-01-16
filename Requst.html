@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+body{
+    background-size: cover;
+    margin: 20px 0;
+  box-sizing: border-box;
+}
+input{
+    margin: 5px;
+     height: 20px;
+     border-radius: 50px;
+     border-color: cyan;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          padding: 12px 20px;  
+}
+
+nav ul{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+   
+
+}
+nav ul li{
+    color: aqua;
+    padding: 0 15px;
+}
+nav ul li a{
+text-decoration: none;
+font-size: 20px;
+font-family: monospace;
+
+
+
+}
+    </style>
+  
+    <nav>
+        <ul>
+           
+                    <li>
+                        <a href="end.html">Logout</a>
+                       
+                    </li>
+                  
+        </ul>
+    </nav>
+</head>
+<body background="t.jpg">
+   <br>
+   <br>
+   <br>
+
+    <center>
+    <form action="Requst.php" method="post" style="margin-block-end: 200px;">
+    <br>
+    <input type="number" name="no" placeholder="رقم المنتج " style="margin:12px;">
+    <br>
+   <input type="submit" name="request" value="Request" style="height:40px ;" ><br>
+   <input type="submit" name="query" value="Show List" style="height:40px ;" >
+
+    </form>
+</center>
+</body>
+</html>
